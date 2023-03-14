@@ -1,0 +1,46 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+header {
+   height: 145px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 15px;
+}
+
+.logo-encabezado {
+    width:100px;
+    height:auto;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-logo  h1 {
+    font-family: "Macondo", 'Roboto', sans-serif;
+}
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item {
+    color: black;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: palevioletred;
+    font-weight: 600;
+}
